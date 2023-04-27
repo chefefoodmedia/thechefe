@@ -853,7 +853,9 @@ html {
     line-height: 18px;
   }
   #tb-slider-cms .tb-slider-images .tb-slider-text p {
-    display: none;
+    font-size: 6px;
+    line-height: inherit;
+    text-align: justify;
   }
   #tb-slider-cms #slider .owl-nav .owl-prev,
   #tb-slider-cms #slider .owl-nav .owl-next {
@@ -869,7 +871,9 @@ html {
 }
 @media (max-width: 575px) {
   #tb-slider-cms .tb-slider-images .tb-slider-text p {
-    display: none;
+    font-size: 6px;
+    line-height: inherit;
+    text-align: justify;
   }
   #tb-slider-cms .tb-slider-images .tb-slider-text h2 {
     font-size: 38px;
