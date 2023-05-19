@@ -6,7 +6,7 @@ TheChefe.com is a social media platform for food sharing, built using the MERN (
 
 ## Application URL
 
-The live version of the application can be accessed at [app-chefe.onrender.com](https://app-chefe.onrender.com).
+The live version of the application can be accessed at [app-thechefe](https://app-thechefe.onrender.com/#/).
 
 ## Features
 
