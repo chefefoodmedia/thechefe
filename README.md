@@ -15,7 +15,7 @@ The live version of the application can be accessed at [app-thechefe](https://ap
 - Recipe Sharing: Users can create and share their recipes, including ingredients, cooking instructions, and photos.
 - Recipe Discovery: Users can explore a wide range of recipes shared by other users, filter recipes by cuisine, dietary restrictions, or ingredients, and save their favorite recipes.
 - Social Interactions: Users can like, comment, and bookmark recipes, as well as follow other users to stay updated with their latest culinary creations.
-- Meal Planning: Users can create meal plans, add recipes to their plans, and schedule their weekly or monthly meals.
+- food Planning: Users can create food plans, add recipes to their plans, and schedule their weekly or monthly food.
 - Shopping List: Users can generate a shopping list based on the ingredients required for their selected recipes.
 - Search Functionality: Users can search for recipes, ingredients, or specific users within the platform.
 - Notifications: Users receive notifications for activities related to their recipes, comments, or interactions.
