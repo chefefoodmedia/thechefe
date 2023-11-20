@@ -685,7 +685,7 @@ html {
     line-height: 122px;
   }
   #tb-slider-cms .tb-slider-images .tb-slider-text p {
-    font-size: 14px;
+    font-size: 26px;
     line-height: 26px;
     margin: 5px 0 10px 0;
   }
@@ -871,9 +871,8 @@ html {
 }
 @media (max-width: 575px) {
   #tb-slider-cms .tb-slider-images .tb-slider-text p {
-    font-size: 6px;
+    font-size: 10px;
     line-height: inherit;
-    text-align: justify;
   }
   #tb-slider-cms .tb-slider-images .tb-slider-text h2 {
     font-size: 38px;
@@ -1342,7 +1341,6 @@ html {
   align-items: center;
   margin: 0 30px 0 0;
   border-radius: 15%;
-
 }
 #tb-servise-cms .tb-servise-section .tb-servise-text {
   width: 70%;
@@ -1723,6 +1721,35 @@ html {
   height: 30px;
 }
 #tb-special-cms .tb-special-section h2::before {
+  position: absolute;
+  content: "";
+  top: auto;
+  bottom: -50px;
+  left: 50px;
+  right: auto;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+}
+#tb-special-cms .tb-special-section h3 {
+  font: italic 700 150px/190px "Lobster Two", Helvetica, sans-serif;
+  color: #b3182e;
+  text-transform: capitalize;
+  margin: 0;
+  position: relative;
+}
+#tb-special-cms .tb-special-section h3::after {
+  position: absolute;
+  content: "";
+  top: 20px;
+  bottom: auto;
+  left: auto;
+  right: 70px;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+}
+#tb-special-cms .tb-special-section h3::before {
   position: absolute;
   content: "";
   top: auto;
@@ -2147,7 +2174,7 @@ html {
 }
 #tb-testimonial-cms .tb-testimonial-section {
   /* background: #f0f0f0; */
-  
+
   border-bottom: 2px solid #b3182e;
   padding: 0 100px 30px 100px;
   border-top: 30px solid #fff;
@@ -5515,7 +5542,7 @@ html {
   width: 80px;
   height: 80px;
   background-color: #fff;
-  
+
   position: relative;
   display: block;
   cursor: pointer;
@@ -6133,17 +6160,22 @@ html {
 /*end-contact-page*/
 
 .cm-white {
-  color:white;
-
+  color: white;
 }
 
-.cm-border-bottom-red{
-  border-bottom: 2px solid #b3182e
+.cm-border-bottom-red {
+  border-bottom: 2px solid #b3182e;
 }
 
-.cm-img{
-  height:130px;
-  width: 150px;;
+.cm-img {
+  height: 130px;
+  width: 150px;
   /* border-radius: 50%; */
-  
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: #b3182e !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(253, 77, 13, 0.25);
 }
