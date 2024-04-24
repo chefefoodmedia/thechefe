@@ -93,7 +93,7 @@ html {
   margin: 0 40px 0 0;
 }
 .sticky .logo img {
-  max-width: 80%;
+  max-width: 45%;
   transition: all 400ms ease-in-out;
   -webkit-transition: all 400ms ease-in-out;
   -moz-transition: all 400ms ease-in-out;
@@ -802,7 +802,7 @@ html {
     font-size: 18px;
   }
   .sticky .logo img {
-    max-width: 90%;
+    max-width: 25%;
   }
   #tb-slider-cms .tb-herder-cms nav {
     padding: 14px 0;
@@ -866,7 +866,7 @@ html {
     top: 76px;
   }
   .logo {
-    width: 34%;
+    width: 75%;
   }
 }
 @media (max-width: 575px) {
